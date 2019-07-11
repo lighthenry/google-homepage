@@ -114,9 +114,8 @@ body {
 }
 
 .center {
-    text-align: -webkit-center;
-    width: 487px; 
-    height: 58px;
+    float: left; 
+    clear: none;
 }
 
 .GS {
@@ -131,7 +130,7 @@ body {
    text-align: center;
    position: absolute; 
    top: 458px;
-   
+   right: 50%;
 }
 
 .GSbutton {
@@ -152,8 +151,8 @@ body {
     border-radius: 4px; 
     text-align: center;
     position: absolute; 
-    top: 458px; 
-    display: inline;
+    top: 458px;  
+    left: 50%;
  }
  
  .IFLbutton {
@@ -161,3 +160,4 @@ body {
      text-decoration: none; 
      color: #5F6368;
      font-size: 14px;
+ }
